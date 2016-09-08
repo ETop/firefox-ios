@@ -77,6 +77,9 @@ public class MockProfile: Profile {
     func shutdown() {
     }
 
+    func flushAccount() {
+    }
+
     private var dbCreated = false
     lazy var db: BrowserDB = {
         self.dbCreated = true
